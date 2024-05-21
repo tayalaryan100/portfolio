@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fea7731cc7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+     <div class="cointainer">
+        <nav>"
+            <img src="images/logo2.png" class="logo2">
+            <ul id="sidemenu">
+                <li><a href="#header">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">service</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX DESIGNER </p>
+            <h1>hi, I'm <span>aryan</span> <br>tayal from india </main></h1>
+        </div>
+     </div>
+</div>
+<div>
+<div id="about">
+        <div class="cointainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20230306_135626.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle "> About me </h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Labore perspiciatis temporibus fuga dignissimos rem et iusto,
+                         debitis quod nesciunt non, exercitationem dicta vero voluptatum necessitatibus delectus? Delectus
+                          saepe blanditiis deserunt?
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience </p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interface</li>
+                            <li><span>Web development</span><br>web app development</li>
+                            <li><span>App development</span><br>Building android/ios</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023</span><br>Cybersecurity Essentials from Cisco. </li>
+                            <li><span> 2022-2023</span><br>Training certification in data science. from SKILL VOID </li>
+                            <li><span>2022</span><br>Accomplished a 40 Hours Program in Advanced Python Programming focused on Logic Building & Projects Based on
+                                Python Libraries such as Numpy,Pandas,Matplotlib. from RCPL </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>B.tech from IIMT COLLEGE OF ENGINEERING , greater noida  </li>
+                            <li><span>2020</span><br>12th from dehradun public school </li>
+                            <li><span>2018</span><br>10th from dehradun public school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------services------>
+
+<div id="services">
+    <div class="cointainer">
+        <h1 class="subtitle "> My services  </h1>
+        <div class="services-list">
+            <div>
+
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, ipsa?</p>
+                <a href="#">Learn more </a>
+            </div>
+            <div>
+
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, ipsa?</p>
+                <a href="#">Learn more </a>
+            </div>
+            <div>
+
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX DESIGN</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, ipsa?</p>
+                <a href="#">Learn more </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------portfolio--------->
+
+<div id="portfolio">
+    <div class="cointainer">
+        <h1 class="subtitle "> My work  </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Socisl media app</h3>
+                    <p>the app connect you to the talented people around the world.
+                        Download it from the playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>music app</h3>
+                    <p>you can listen your favourite songs, and also download the songs.
+                        Download it from the playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>online shoping app</h3>
+                    <p>buy any thing at low cost and also earn cashback 
+                        Download it from the playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------contact------------>
+
+<div id="contact">
+    <div class="cointainer">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle"> contact me</h1>
+                <p><i class="fa-sharp fa-regular fa-paper-plane"></i>tayalaryan100@gmail.com</p>
+                <p><i class="fa-duotone fa-phone"></i>8171696781</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">download cv </a>
+            </div>
+            
+
+            <div class="contact-right">
+                <form  name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <div>
+                    <div class="copyright">
+                        <p>copyright @aryan. made by aryan tayal</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+    sidemenu.style.right="0";
+ }
+
+    function closemenu(){
+    sidemenu.style.right="-200px";
+ }
+
+</script>
+
+<script>
+    const scriptURL = https://script.google.com/macros/s/AKfycbyOjlF54TqMECJufCPyT23Uz365eW78yUqzNQ5ewadyMOKFDhDhJIjrpFp9z9rNzNpx/exec
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
